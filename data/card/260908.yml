@@ -5,13 +5,13 @@ about:
   head: cbd09c6
   archived: false
   latestVersion: "v1.1.0"
-  collectedAt: 2026-09-08T02:16:14Z
+  collectedAt: 2026-09-08T04:59:19Z
 timeline:
   created: 2026-04-05
   lastCommit: 2026-09-03
   lastRelease: 2026-07-16
 popularity:
-  star: 2003
+  star: 2004
   watcher: 18
   fork: 201
   release: 11
@@ -83,7 +83,7 @@ total:
   commit: 153
 ---
 path: /home/runner/.x-repo/github.com/atomicstrata/llm-wiki-compiler
-collectedAt: 2026-09-08T02:16:17Z
+collectedAt: 2026-09-08T04:59:21Z
 loc:
   TypeScript:
     code: 108403
