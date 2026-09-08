@@ -1,6 +1,24 @@
----
-owner-repo: atomicstrata/llm-wiki-compiler
-desc:   The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern. 
----
-
 # llm-wiki-compiler
+
+The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern.
+
+- **Upstream**: <https://github.com/atomicstrata/llm-wiki-compiler>
+- **Homepage**: <https://llmwiki.atomicstrata.ai>
+- **Latest release**: `v1.1.0` (2026-07-16)
+- **Last commit**: 2026-09-03
+- **License**: MIT
+- **Stars**: 2005 · **Forks**: 201 · **Open issues**: 32 · **Contributors**: 15
+
+## Installation
+
+```sh
+x install llm-wiki-compiler
+```
+
+See <https://x-cmd.com/install/llm-wiki-compiler> for details.
+
+## Data
+
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+
+_Last regenerated: 2026-09-08T11:18:05Z._
