@@ -7,7 +7,7 @@ The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpat
 - **Latest release**: `v1.1.0` (2026-07-16)
 - **Last commit**: 2026-09-03
 - **License**: MIT
-- **Stars**: 2005 · **Forks**: 201 · **Open issues**: 32 · **Contributors**: 15
+- **Stars**: 2007 · **Forks**: 201 · **Open issues**: 32 · **Contributors**: 15
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/llm-wiki-compiler> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T11:18:05Z._
+_Last regenerated: 2026-09-09T05:06:01Z._
