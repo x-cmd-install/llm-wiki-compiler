@@ -22,11 +22,10 @@ x install llm-wiki-compiler
 
 - **Latest**: `v1.2.0` (2026-09-10)
 - **Last commit**: 2026-09-10
-- **Published**: 2026-09-10T02:52:30Z
 
 ## Popularity
 
-- **Stars**: 2,006 · **Forks**: 201 · **Open issues**: 32 · **Contributors**: 17
+- **Stars**: 2,010 · **Forks**: 201 · **Open issues**: 32 · **Contributors**: 17
 
 ## Totals (cumulative)
 
@@ -57,8 +56,8 @@ Total: **125,936** lines of code across **1338** files in the top 5 languages.
 Install metadata for llm-wiki-compiler lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `llm-wiki-compiler` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/llm-wiki-compiler.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/llm-wiki-compiler.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:04:49Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:58:24Z._
