@@ -2,12 +2,12 @@ about:
   description: "The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern."
   license: MIT
   homepage: https://llmwiki.atomicstrata.ai
-  head: 84ed65c
+  head: ed20679
   archived: false
   latestVersion: "v1.2.0"
   latestRelease: "v1.2.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T16:58:16Z
+  collectedAt: 2026-09-10T23:59:37Z
 timeline:
   created: 2026-04-05
   lastCommit: 2026-09-10
@@ -20,85 +20,85 @@ popularity:
   fork: 201
   release: 12
   contributor: 17
-  pullRequest: 175
+  pullRequest: 183
   issue: 32
 language:
-  TypeScript: 6967677
+  TypeScript: 7088237
   JavaScript: 309870
   CSS: 105976
   HTML: 5293
   Shell: 3446
-totalBytes: 7392262
+totalBytes: 7512822
 recent:
   last30d:
     since: 2026-08-11
     release: 1
-    mergedPR: 19
+    mergedPR: 27
     openPR: 1
     closedIssue: 4
     openIssue: 4
-    commit: 19
+    commit: 0
   last60d:
     since: 2026-07-12
     release: 2
-    mergedPR: 31
+    mergedPR: 39
     openPR: 1
-    closedIssue: 7
-    openIssue: 7
-    commit: 27
+    closedIssue: 8
+    openIssue: 6
+    commit: 0
   last90d:
     since: 2026-06-12
     release: 4
-    mergedPR: 63
+    mergedPR: 71
     openPR: 1
-    closedIssue: 9
-    openIssue: 9
-    commit: 51
+    closedIssue: 10
+    openIssue: 8
+    commit: 0
   last180d:
     since: 2026-03-14
     release: 12
-    mergedPR: 144
+    mergedPR: 152
     openPR: 1
-    closedIssue: 22
-    openIssue: 10
-    commit: 160
+    closedIssue: 23
+    openIssue: 9
+    commit: 0
   last360d:
     since: 2025-09-15
     release: 12
-    mergedPR: 144
+    mergedPR: 152
     openPR: 1
-    closedIssue: 22
-    openIssue: 10
-    commit: 160
+    closedIssue: 23
+    openIssue: 9
+    commit: 0
   last720d:
     since: 2024-09-20
     release: 12
-    mergedPR: 144
+    mergedPR: 152
     openPR: 1
-    closedIssue: 22
-    openIssue: 10
-    commit: 160
+    closedIssue: 23
+    openIssue: 9
+    commit: 168
 total:
   release: 12
-  mergedPR: 144
+  mergedPR: 152
   openPR: 1
-  closedIssue: 22
-  openIssue: 10
-  commit: 160
+  closedIssue: 23
+  openIssue: 9
+  commit: 168
 ---
 path: /home/runner/.x-repo/github.com/atomicstrata/llm-wiki-compiler
-collectedAt: 2026-09-10T16:58:19Z
+collectedAt: 2026-09-10T23:59:39Z
 loc:
   TypeScript:
-    code: 111216
-    comments: 41566
-    blanks: 15810
-    files: 1267
+    code: 113182
+    comments: 41754
+    blanks: 16014
+    files: 1308
   Json:
-    code: 8822
+    code: 8922
     comments: 0
     blanks: 0
-    files: 28
+    files: 30
   JavaScript:
     code: 3919
     comments: 2972
@@ -136,8 +136,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 1245
-    blanks: 584
+    comments: 1313
+    blanks: 603
     files: 22
   Text:
     code: 0
@@ -145,10 +145,10 @@ loc:
     blanks: 9
     files: 4
 total:
-  code: 125989
-  comments: 46764
-  blanks: 17326
-  files: 1370
+  code: 128057
+  comments: 47020
+  blanks: 17549
+  files: 1413
 ---
 
 ---
