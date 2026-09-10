@@ -12,6 +12,18 @@ The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpat
 x install llm-wiki-compiler
 ```
 
+## Code insight
+
+Total: **128,002** lines of code across **1381** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| TypeScript | 113,182 | 41,754 | 16,014 | 1308 |
+| Json | 8,922 | 0 | 0 | 30 |
+| JavaScript | 3,919 | 2,972 | 603 | 35 |
+| Css | 1,645 | 869 | 286 | 7 |
+| Jsx | 111 | 4 | 10 | 1 |
+
 ## Source
 
 - **Upstream**: <https://github.com/atomicstrata/llm-wiki-compiler>
@@ -29,27 +41,18 @@ x install llm-wiki-compiler
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 144 · **Open PRs**: 1 · **Closed issues**: 22 · **Open issues**: 10 · **Commits**: 160
+- **Releases**: 12 · **Merged PRs**: 152 · **Open PRs**: 1 · **Closed issues**: 23 · **Open issues**: 9 · **Commits**: 168
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 19 | 1 | 4 | 4 | 19 |
-| 90d | 2026-06-12 | 4 | 63 | 1 | 9 | 9 | 51 |
-| 360d | 2025-09-15 | 12 | 144 | 1 | 22 | 10 | 160 |
-
-## Code size
-
-Total: **125,936** lines of code across **1338** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| TypeScript | 111,216 | 41,566 | 15,810 | 1267 |
-| Json | 8,822 | 0 | 0 | 28 |
-| JavaScript | 3,919 | 2,972 | 603 | 35 |
-| Css | 1,645 | 869 | 286 | 7 |
-| Jsx | 111 | 4 | 10 | 1 |
+| 30d | 2026-08-11 | 1 | 27 | 1 | 4 | 4 | 0 |
+| last60d | 2026-07-12 | 2 | 39 | 1 | 8 | 6 | 0 |
+| 90d | 2026-06-12 | 4 | 71 | 1 | 10 | 8 | 0 |
+| last180d | 2026-03-14 | 12 | 152 | 1 | 23 | 9 | 0 |
+| 360d | 2025-09-15 | 12 | 152 | 1 | 23 | 9 | 0 |
+| last720d | 2024-09-20 | 12 | 152 | 1 | 23 | 9 | 168 |
 
 ## Improve this data
 
@@ -60,4 +63,4 @@ Install metadata for llm-wiki-compiler lives in the [x-cmd/install](https://gith
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:58:24Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:59:42Z._
