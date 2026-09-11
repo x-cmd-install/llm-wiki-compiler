@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.2.0"
   latestRelease: "v1.2.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T23:59:37Z
+  collectedAt: 2026-09-11T05:12:47Z
 timeline:
   created: 2026-04-05
   lastCommit: 2026-09-10
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-09-10
   lastPrerelease: 
 popularity:
-  star: 2010
+  star: 2012
   watcher: 18
   fork: 201
   release: 12
   contributor: 17
   pullRequest: 183
-  issue: 32
+  issue: 37
 language:
   TypeScript: 7088237
   JavaScript: 309870
@@ -31,63 +31,63 @@ language:
 totalBytes: 7512822
 recent:
   last30d:
-    since: 2026-08-11
+    since: 2026-08-12
     release: 1
-    mergedPR: 27
+    mergedPR: 26
     openPR: 1
-    closedIssue: 4
-    openIssue: 4
-    commit: 0
+    closedIssue: 7
+    openIssue: 5
+    commit: 27
   last60d:
-    since: 2026-07-12
+    since: 2026-07-13
     release: 2
-    mergedPR: 39
+    mergedPR: 37
     openPR: 1
-    closedIssue: 8
+    closedIssue: 12
     openIssue: 6
-    commit: 0
+    commit: 35
   last90d:
-    since: 2026-06-12
+    since: 2026-06-13
     release: 4
-    mergedPR: 71
+    mergedPR: 70
     openPR: 1
-    closedIssue: 10
-    openIssue: 8
-    commit: 0
+    closedIssue: 17
+    openIssue: 6
+    commit: 59
   last180d:
-    since: 2026-03-14
+    since: 2026-03-15
     release: 12
     mergedPR: 152
     openPR: 1
-    closedIssue: 23
-    openIssue: 9
-    commit: 0
+    closedIssue: 31
+    openIssue: 6
+    commit: 168
   last360d:
-    since: 2025-09-15
+    since: 2025-09-16
     release: 12
     mergedPR: 152
     openPR: 1
-    closedIssue: 23
-    openIssue: 9
-    commit: 0
+    closedIssue: 31
+    openIssue: 6
+    commit: 168
   last720d:
-    since: 2024-09-20
+    since: 2024-09-21
     release: 12
     mergedPR: 152
     openPR: 1
-    closedIssue: 23
-    openIssue: 9
+    closedIssue: 31
+    openIssue: 6
     commit: 168
 total:
   release: 12
   mergedPR: 152
   openPR: 1
-  closedIssue: 23
-  openIssue: 9
+  closedIssue: 31
+  openIssue: 6
   commit: 168
 ---
 path: /home/runner/.x-repo/github.com/atomicstrata/llm-wiki-compiler
-collectedAt: 2026-09-10T23:59:39Z
+collectedAt: 2026-09-11T05:12:49Z
 loc:
   TypeScript:
     code: 113182

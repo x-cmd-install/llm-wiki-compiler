@@ -1,0 +1,154 @@
+about:
+  description: "The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern."
+  license: MIT
+  homepage: https://llmwiki.atomicstrata.ai
+  head: ed20679
+  archived: false
+  latestVersion: "v1.2.0"
+  latestRelease: "v1.2.0"
+  latestPrerelease: ""
+  collectedAt: 2026-09-11T05:12:47Z
+timeline:
+  created: 2026-04-05
+  lastCommit: 2026-09-10
+  lastVersion: 2026-09-10
+  lastRelease: 2026-09-10
+  lastPrerelease: 
+popularity:
+  star: 2012
+  watcher: 18
+  fork: 201
+  release: 12
+  contributor: 17
+  pullRequest: 183
+  issue: 37
+language:
+  TypeScript: 7088237
+  JavaScript: 309870
+  CSS: 105976
+  HTML: 5293
+  Shell: 3446
+totalBytes: 7512822
+recent:
+  last30d:
+    since: 2026-08-12
+    release: 1
+    mergedPR: 26
+    openPR: 1
+    closedIssue: 7
+    openIssue: 5
+    commit: 27
+  last60d:
+    since: 2026-07-13
+    release: 2
+    mergedPR: 37
+    openPR: 1
+    closedIssue: 12
+    openIssue: 6
+    commit: 35
+  last90d:
+    since: 2026-06-13
+    release: 4
+    mergedPR: 70
+    openPR: 1
+    closedIssue: 17
+    openIssue: 6
+    commit: 59
+  last180d:
+    since: 2026-03-15
+    release: 12
+    mergedPR: 152
+    openPR: 1
+    closedIssue: 31
+    openIssue: 6
+    commit: 168
+  last360d:
+    since: 2025-09-16
+    release: 12
+    mergedPR: 152
+    openPR: 1
+    closedIssue: 31
+    openIssue: 6
+    commit: 168
+  last720d:
+    since: 2024-09-21
+    release: 12
+    mergedPR: 152
+    openPR: 1
+    closedIssue: 31
+    openIssue: 6
+    commit: 168
+total:
+  release: 12
+  mergedPR: 152
+  openPR: 1
+  closedIssue: 31
+  openIssue: 6
+  commit: 168
+---
+path: /home/runner/.x-repo/github.com/atomicstrata/llm-wiki-compiler
+collectedAt: 2026-09-11T05:12:49Z
+loc:
+  TypeScript:
+    code: 113182
+    comments: 41754
+    blanks: 16014
+    files: 1308
+  Json:
+    code: 8922
+    comments: 0
+    blanks: 0
+    files: 30
+  JavaScript:
+    code: 3919
+    comments: 2972
+    blanks: 603
+    files: 35
+  Css:
+    code: 1645
+    comments: 869
+    blanks: 286
+    files: 7
+  Jsx:
+    code: 111
+    comments: 4
+    blanks: 10
+    files: 1
+  Html:
+    code: 109
+    comments: 0
+    blanks: 0
+    files: 1
+  Svg:
+    code: 65
+    comments: 0
+    blanks: 2
+    files: 2
+  Sh:
+    code: 34
+    comments: 43
+    blanks: 13
+    files: 2
+  SRecode:
+    code: 15
+    comments: 0
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1313
+    blanks: 603
+    files: 22
+  Text:
+    code: 0
+    comments: 51
+    blanks: 9
+    files: 4
+total:
+  code: 128057
+  comments: 47020
+  blanks: 17549
+  files: 1413
+---
+
+---
