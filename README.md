@@ -37,7 +37,7 @@ Total: **129,424** lines of code across **1402** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,027 · **Forks**: 208 · **Open issues**: 37 · **Contributors**: 17
+- **Stars**: 2,030 · **Forks**: 208 · **Open issues**: 37 · **Contributors**: 17
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **129,424** lines of code across **1402** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 2 | 29 | 0 | 7 | 5 | 30 |
-| last60d | 2026-07-19 | 2 | 37 | 0 | 11 | 6 | 37 |
-| 90d | 2026-06-19 | 4 | 61 | 0 | 16 | 6 | 54 |
-| last180d | 2026-03-21 | 13 | 157 | 0 | 31 | 6 | 173 |
-| 360d | 2025-09-22 | 13 | 157 | 0 | 31 | 6 | 173 |
-| last720d | 2024-09-27 | 13 | 157 | 0 | 31 | 6 | 173 |
+| 30d | 2026-08-19 | 2 | 29 | 0 | 7 | 5 | 30 |
+| last60d | 2026-07-20 | 2 | 37 | 0 | 11 | 6 | 37 |
+| 90d | 2026-06-20 | 4 | 53 | 0 | 16 | 6 | 54 |
+| last180d | 2026-03-22 | 13 | 157 | 0 | 31 | 6 | 173 |
+| 360d | 2025-09-23 | 13 | 157 | 0 | 31 | 6 | 173 |
+| last720d | 2024-09-28 | 13 | 157 | 0 | 31 | 6 | 173 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for llm-wiki-compiler lives in the [x-cmd/install](https://gith
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T05:25:05Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T05:16:46Z._
