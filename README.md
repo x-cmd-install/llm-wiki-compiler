@@ -14,11 +14,11 @@ x install llm-wiki-compiler
 
 ## Code insight
 
-Total: **252,476** lines of code across **2668** files in the top 5 languages.
+Total: **252,857** lines of code across **2674** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 236,001 | 83,039 | 31,338 | 2576 |
+| TypeScript | 236,382 | 83,126 | 31,388 | 2582 |
 | Json | 9,302 | 0 | 0 | 36 |
 | JavaScript | 4,389 | 3,088 | 673 | 40 |
 | Css | 2,370 | 854 | 317 | 15 |
@@ -33,26 +33,26 @@ Total: **252,476** lines of code across **2668** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.3.0` (2026-09-11)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-25
 
 ## Popularity
 
-- **Stars**: 2,113 · **Forks**: 223 · **Open issues**: 37 · **Contributors**: 17
+- **Stars**: 2,126 · **Forks**: 224 · **Open issues**: 37 · **Contributors**: 17
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 168 · **Open PRs**: 3 · **Closed issues**: 33 · **Open issues**: 4 · **Commits**: 203
+- **Releases**: 13 · **Merged PRs**: 171 · **Open PRs**: 3 · **Closed issues**: 33 · **Open issues**: 4 · **Commits**: 206
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 2 | 28 | 3 | 3 | 3 | 49 |
-| last60d | 2026-07-27 | 2 | 47 | 3 | 12 | 4 | 62 |
-| 90d | 2026-06-27 | 4 | 62 | 3 | 17 | 4 | 79 |
-| last180d | 2026-03-29 | 13 | 168 | 3 | 33 | 4 | 200 |
-| 360d | 2025-09-30 | 13 | 168 | 3 | 33 | 4 | 200 |
-| last720d | 2024-10-05 | 13 | 168 | 3 | 33 | 4 | 203 |
+| 30d | 2026-08-27 | 2 | 31 | 3 | 3 | 3 | 52 |
+| last60d | 2026-07-28 | 2 | 49 | 3 | 12 | 4 | 65 |
+| 90d | 2026-06-28 | 4 | 65 | 3 | 17 | 4 | 82 |
+| last180d | 2026-03-30 | 13 | 171 | 3 | 33 | 4 | 203 |
+| 360d | 2025-10-01 | 13 | 171 | 3 | 33 | 4 | 203 |
+| last720d | 2024-10-06 | 13 | 171 | 3 | 33 | 4 | 206 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for llm-wiki-compiler lives in the [x-cmd/install](https://gith
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:23:53Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:19:03Z._
