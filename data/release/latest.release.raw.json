@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/releases/401535674",
-  "assets_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/releases/401535674/assets",
-  "upload_url": "https://uploads.github.com/repos/atomicstrata/llm-wiki-compiler/releases/401535674/assets{?name,label}",
-  "html_url": "https://github.com/atomicstrata/llm-wiki-compiler/releases/tag/v1.4.1",
-  "id": 401535674,
+  "url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/releases/402242637",
+  "assets_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/releases/402242637/assets",
+  "upload_url": "https://uploads.github.com/repos/atomicstrata/llm-wiki-compiler/releases/402242637/assets{?name,label}",
+  "html_url": "https://github.com/atomicstrata/llm-wiki-compiler/releases/tag/v1.4.2",
+  "id": 402242637,
   "author": {
     "login": "ethanj",
     "id": 1934146,
@@ -25,20 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOR6jouM4X7vK6",
-  "tag_name": "v1.4.1",
+  "node_id": "RE_kwDOR6jouM4X-bxN",
+  "tag_name": "v1.4.2",
   "target_commitish": "main",
-  "name": "1.4.1",
+  "name": "1.4.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-02T03:42:01Z",
-  "updated_at": "2026-10-02T04:14:38Z",
-  "published_at": "2026-10-02T04:14:38Z",
+  "created_at": "2026-10-02T23:58:53Z",
+  "updated_at": "2026-10-03T00:34:05Z",
+  "published_at": "2026-10-03T00:34:05Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/tarball/v1.4.1",
-  "zipball_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/zipball/v1.4.1",
-  "body": "llmwiki 1.4.1 makes it easier for agents to find the compiler and use an existing wiki as evidence.\n\n- A bundled Agent Skill explains when to use llmwiki and guides agents to inspect the wiki and retrieve cited context before generating or writing.\n- Searchable npm metadata, a versioned MCP Registry manifest, and clearer MCP descriptions improve discovery and tool selection.\n- Updated setup documentation explains installation, provider requirements, and review boundaries.\n- The README highlights 1.4.0 benefits; the changelog consolidates its release history and contributor credits; the architecture guide reflects the released implementation.\n\nExisting MCP tool names, inputs, and execution behavior are unchanged. Install `llm-wiki-compiler@1.4.1`; the supporting packages use matching versions.\n"
+  "tarball_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/tarball/v1.4.2",
+  "zipball_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/zipball/v1.4.2",
+  "body": "llmwiki 1.4.2 fixes `llmwiki compile` with the `codex-agent` provider.\n\n- In 1.4.1, concept extraction through `codex-agent` failed with `invalid_json_schema`, because Codex accepts only strict output schemas. The provider now sends Codex a strict copy of each tool schema, and optional fields keep their meaning.\n- Thanks to @frankstallone for the report and the diagnosis.\n\nNo other changes. Install `llm-wiki-compiler@1.4.2`; the supporting packages use matching versions.\n",
+  "mentions_count": 1
 }
