@@ -157,4 +157,3 @@ total:
 ---
 
 ---
-{"id":402242637,"author":{"login":"ethanj","id":1934146,"node_id":"MDQ6VXNlcjE5MzQxNDY=","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOR6jouM4X-bxN","tag_name":"v1.4.2","target_commitish":"main","name":"1.4.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-02T23:58:53Z","updated_at":"2026-10-03T00:34:05Z","published_at":"2026-10-03T00:34:05Z","assets":[],"body":"llmwiki 1.4.2 fixes `llmwiki compile` with the `codex-agent` provider.\n\n- In 1.4.1, concept extraction through `codex-agent` failed with `invalid_json_schema`, because Codex accepts only strict output schemas. The provider now sends Codex a strict copy of each tool schema, and optional fields keep their meaning.\n- Thanks to @frankstallone for the report and the diagnosis.\n\nNo other changes. Install `llm-wiki-compiler@1.4.2`; the supporting packages use matching versions.\n","mentions_count":1}
