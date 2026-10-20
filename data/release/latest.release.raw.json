@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/releases/402242637",
-  "assets_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/releases/402242637/assets",
-  "upload_url": "https://uploads.github.com/repos/atomicstrata/llm-wiki-compiler/releases/402242637/assets{?name,label}",
-  "html_url": "https://github.com/atomicstrata/llm-wiki-compiler/releases/tag/v1.4.2",
-  "id": 402242637,
+  "url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/releases/417703356",
+  "assets_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/releases/417703356/assets",
+  "upload_url": "https://uploads.github.com/repos/atomicstrata/llm-wiki-compiler/releases/417703356/assets{?name,label}",
+  "html_url": "https://github.com/atomicstrata/llm-wiki-compiler/releases/tag/v1.5.0",
+  "id": 417703356,
   "author": {
     "login": "ethanj",
     "id": 1934146,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOR6jouM4X-bxN",
-  "tag_name": "v1.4.2",
-  "target_commitish": "main",
-  "name": "1.4.2",
+  "node_id": "RE_kwDOR6jouM4Y5aW8",
+  "tag_name": "v1.5.0",
+  "target_commitish": "c9c8734be8a0b854c1547cfa3ee97f0b8c6bfa5f",
+  "name": "1.5.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-02T23:58:53Z",
-  "updated_at": "2026-10-03T00:34:05Z",
-  "published_at": "2026-10-03T00:34:05Z",
+  "created_at": "2026-10-19T19:40:59Z",
+  "updated_at": "2026-10-19T20:15:10Z",
+  "published_at": "2026-10-19T20:15:10Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/tarball/v1.4.2",
-  "zipball_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/zipball/v1.4.2",
-  "body": "llmwiki 1.4.2 fixes `llmwiki compile` with the `codex-agent` provider.\n\n- In 1.4.1, concept extraction through `codex-agent` failed with `invalid_json_schema`, because Codex accepts only strict output schemas. The provider now sends Codex a strict copy of each tool schema, and optional fields keep their meaning.\n- Thanks to @frankstallone for the report and the diagnosis.\n\nNo other changes. Install `llm-wiki-compiler@1.4.2`; the supporting packages use matching versions.\n",
-  "mentions_count": 1
+  "tarball_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/tarball/v1.5.0",
+  "zipball_url": "https://api.github.com/repos/atomicstrata/llm-wiki-compiler/zipball/v1.5.0",
+  "body": "# llmwiki 1.5.0 — Wiki behavior separated from storage\n\n`npm install --global llm-wiki-compiler` now installs `1.5.0` (npm `latest`). The two supporting packages are pinned to the same version and install with it. This release ships the same code as `1.5.0-rc.1`; only the version and release documentation changed since the candidate.\n\n## Highlights\n\n- **Same wiki, cleaner foundation.** Compilation, retrieval, review, artifacts and project state now reach the disk through focused storage boundaries, and today's local-disk layout is their first implementation. Locking, atomic writes, path confinement, symlink handling and recovery stay in the local implementation. Your wiki keeps the same layout, file formats, defaults, and CLI, SDK and MCP entry points, with no migration or storage setting. This is groundwork; it does not add hosted storage, a remote backend, role-based permissions or a public storage-plugin API.\n- **Converse gateways.** `LLMWIKI_PROVIDER=converse` connects to a bearer-authenticated endpoint speaking the Bedrock Converse protocols, with streaming and structured extraction. Its AWS protocol packages are optional peers, loaded only when selected.\n- **Pages that fit the source.** `llmwiki compile --no-pages-limit` (also scoped `refresh`, SDK `noPagesLimit: true`) drops the requested 3–8 concepts per source.\n- **A viewer that keeps up.** `llmwiki view` refreshes its snapshot after a compile without a restart and reads `LLMWIKI_VIEW_PORT` when `--port` is not given.\n\n## Fixes\n\n- Wikilink markup in an extracted concept name no longer creates a duplicate page.\n- GPT-6 Luna models work with the OpenAI provider.\n- A named pipe in `sources/` no longer hangs freshness checks.\n- MCP wiki tools and the whole stdio server keep progress output off the JSON-RPC stream.\n\n## Upgrade notes\n\n- No migration is needed. Back up a wiki you care about before upgrading, as for any release.\n- Prompt version moves from `v6` to `v7`. Upgrading alone does not recompile unchanged sources; a source that needs extraction again is extracted afresh.\n- Converse is opt-in: install `@aws-sdk/client-bedrock-runtime` and `@smithy/node-http-handler` only if you select it.\n- The MCP Registry entry `io.github.atomicstrata/llmwiki` is published for `1.5.0` after the npm release.\n\n## Thank you\n\n- @LorenzoGentile — Converse gateway provider (#282), `--no-pages-limit` extraction (#277, merged as #285), wikilink concept-title normalization (#278) and GPT-6 Luna request parameters (#279).\n- @Erick0412-dev — viewer snapshot refresh (#275) and `LLMWIKI_VIEW_PORT` (#274).\n- @vishalhabib99 — quiet MCP wiki tools over stdio (#270).\n\nCredit includes original implementations completed or extended during maintainer review.\n\nFull details: [CHANGELOG](https://github.com/atomicstrata/llm-wiki-compiler/blob/v1.5.0/CHANGELOG.md#150---2026-10-19) · [Upgrade notes](https://llmwiki.atomicstrata.ai/guides/sdk-upgrade) · **Full diff**: https://github.com/atomicstrata/llm-wiki-compiler/compare/v1.4.2...v1.5.0\n",
+  "mentions_count": 3
 }
