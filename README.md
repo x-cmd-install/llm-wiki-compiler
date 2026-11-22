@@ -47,12 +47,12 @@ Total: **301,054** lines of code across **3173** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 8 | 6 | 0 | 2 | 8 |
-| last60d | 2026-09-22 | 7 | 51 | 6 | 3 | 6 | 56 |
-| 90d | 2026-08-23 | 9 | 82 | 6 | 9 | 9 | 109 |
-| last180d | 2026-05-25 | 14 | 160 | 6 | 23 | 10 | 180 |
-| 360d | 2025-11-26 | 20 | 217 | 6 | 36 | 10 | 256 |
-| last720d | 2024-12-01 | 20 | 217 | 6 | 36 | 10 | 264 |
+| 30d | 2026-10-23 | 0 | 8 | 6 | 0 | 2 | 8 |
+| last60d | 2026-09-23 | 7 | 48 | 6 | 3 | 6 | 41 |
+| 90d | 2026-08-24 | 9 | 80 | 6 | 7 | 9 | 105 |
+| last180d | 2026-05-26 | 14 | 160 | 6 | 23 | 10 | 174 |
+| 360d | 2025-11-27 | 20 | 217 | 6 | 36 | 10 | 256 |
+| last720d | 2024-12-02 | 20 | 217 | 6 | 36 | 10 | 264 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for llm-wiki-compiler lives in the [x-cmd/install](https://gith
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:29:29Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:06:53Z._
